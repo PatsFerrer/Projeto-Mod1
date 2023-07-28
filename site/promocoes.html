@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="src/styles/style.css">
+  <link rel="stylesheet" href="src/styles/mediaquery.css">
+  <link rel="stylesheet" href="src/styles/promocoes.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <title>Destino Certo - Promoções</title>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="src/imagens/destinoCertoLogo.png" alt="Imagem da Logo Destino Certo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z" />
+                </svg>
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="destinos.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-airplane" viewBox="0 0 16 16">
+                  <path
+                    d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Zm.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1c-.213 0-.458.158-.678.599Z" />
+                </svg>
+                Destinos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="promocoes.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-cash-coin" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z" />
+                  <path
+                    d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z" />
+                  <path
+                    d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z" />
+                  <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z" />
+                </svg>
+                Promoções
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-chat-right" viewBox="0 0 16 16">
+                  <path
+                    d="M2 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.586a2 2 0 0 1 1.414.586l2 2V2a1 1 0 0 0-1-1H2zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z" />
+                </svg>
+                Fale Conosco
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+    <h1 class="text-center display-4 font-weight-normal">Promoções!</h1>
+
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+      <img class="card-img-top" src="src/imagens/capa2.jpg"
+        alt="Imagem de um homem parado de costas, com mochila de viagem observando as montanhas.">
+      <div class="col-md-5 p-lg-5 mx-auto my-0">
+        <h3 class="display-4 font-weight-normal">Explore o mundo!</h3>
+        <p class="lead font-weight-normal">Nossas promoções internacionais.</p>
+        <a class="btn btn-outline-secondary" href="promocoes.html#viagens">Saiba mais</a>
+      </div>
+
+    </div>
+
+    <div class="row m-2" id="viagens">
+
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <img class="card-img-top" src="src/imagens/uruguai.jpg" alt="Imagem de Uruguai">
+            <h5 class="card-title m-0 text-center">Uruguai</h5>
+            <small>a partir de:</small>
+            <p class="h5 m-0 p-0 ">R$ 757</p>
+            <small>Apenas Ida</small>
+
+            <p class="card-text">O Uruguai é um destino cativante na América do Sul, conhecido por suas praias
+              deslumbrantes, cidades históricas e cultura acolhedora. Explore a charmosa e querida capital, Montevidéu,
+              com sua arquitetura colonial e vibrante vida noturna, ou relaxe nas belas praias de Punta del Este.
+              Descubra a rica herança cultural do país através da música, dança e deliciosa culinária.</p>
+            <a href="pagamento.html" class="btn btn-outline-secondary">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img class="card-img-top" src="src/imagens/londres.jpg" alt="Imagem de Londres">
+            <h5 class="card-title m-0 text-center">Inglaterra</h5>
+            <small>a partir de:</small>
+            <p class="h5 m-0 p-0 ">R$ 2.304</p>
+            <small>Apenas Ida</small>
+
+            <p class="card-text">A Inglaterra é uma nação encantadora, repleta de história e cultura vibrante. Explore
+              os icônicos pontos turísticos de Londres, como o Big Ben e o Buckingham Palace, mergulhe na rica história
+              em Stonehenge e descubra pitorescas paisagens rurais em Cotswolds. Uma viagem para a Inglaterra é uma
+              jornada inesquecível e maravilhosa para os amantes de arte e tradições milenares.</p>
+            <a href="pagamento.html" class="btn btn-outline-secondary">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row m-2">
+      <div class="col-sm-6 ">
+        <div class="card">
+          <div class="card-body">
+            <img class="card-img-top" src="src/imagens/argentina.jpg" alt="Imagem da Argentina">
+            <h5 class="card-title m-0 text-center">Argentina</h5>
+            <small>a partir de:</small>
+            <p class="h5 m-0 p-0 ">R$ 985</p>
+            <small>Apenas Ida</small>
+            <p class="card-text">A Argentina é um país apaixonante na América do Sul, oferecendo uma mistura única de
+              paisagens deslumbrantes, cultura rica e delícias gastronômicas. Explore a elegante cidade de Buenos Aires,
+              famosa por seus tangos envolventes e arquitetura europeia. Deleite-se com a deliciosa carne assada e os
+              renomados vinhos argentinos.</p>
+            <a href="pagamento.html" class="btn btn-outline-secondary">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img class="card-img-top" src="src/imagens/chile.jpg" alt="Imagem do Chile">
+            <h5 class="card-title m-0 text-center">Chile</h5>
+            <small>a partir de:</small>
+            <p class="h5 m-0 p-0 ">R$ 1.001</p>
+            <small>Apenas Ida</small>
+            <p class="card-text">O Chile é um país incomparável na América do Sul, abraçando uma diversidade de
+              paisagens impressionantes. Descubra o incrível deserto do Atacama, o mais árido do mundo, com paisagens
+              lunares e lagoas de sal. Explore majestosas montanhas dos Andes, ideais para esportes de inverno. Uma
+              cultura rica e com um povo acolhedor, é uma experiência que cativa os viajantes em busca de uma incrível
+              beleza natural.</p>
+            <a href="pagamento.html" class="btn btn-outline-secondary">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <img src="src/imagens/destinoCertoLogo.png" alt="Imagem da Logo Destino Certo">
+    <div class="compra-segura">
+      <strong>COMPRA SEGURA</strong>
+      <a href="pagamento.html">Pagamentos</a>
+      <a href="contato.html">Fale Conosco</a>
+      <a href="#">Black Friday</a>
+    </div>
+
+    <div class="contato">
+      <strong>CONTATO</strong>
+      <span><i class="ph ph-phone"></i> 85 3232-3232</span>
+      <span><i class="ph ph-at"></i> contato@destinocerto.com</span>
+      <span><i class="ph ph-map-pin"></i> Rua 100 Destino, s/n</span>
+    </div>
+
+    <div class="redes-sociais">
+      <strong>REDES SOCIAIS</strong>
+      <div>
+        <span>
+          <a href="#">
+            <i class="ph ph-instagram-logo"></i>
+          </a>
+        </span>
+        <span>
+          <a href="#"><i class="ph ph-twitter-logo"></i></a>
+        </span>
+        <span>
+          <a href="#"><i class="ph ph-facebook-logo"></i></a>
+        </span>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 600px) {
+  footer {
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: flex-start; */
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  footer .compra-segura {
+    text-align: end;
+  }
+
+  .carousel-item > img {
+    height: 200px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .carousel-item > img {
+    height: 300px;
+    object-fit: cover;
+  }
+}
+
+/* tela maior */
+
+@media screen and (min-width: 768px) {
+  .carousel-item > img {
+    height: 400px;
+    object-fit: cover;
+  }
+}

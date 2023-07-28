@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+.navbar-brand img {   
+    width: 55px;
+    filter: invert(1)
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+#navbarNav > ul > .nav-item .nav-link:hover {
+    border-right: 1px solid rgba(255, 255, 255, 0.658);
+    border-left: 1px solid rgba(255, 255, 255, 0.658);
+    background-color: #10004f31 ; 
+    color: white;
+}
+
+#navbarNav > ul > .nav-item .nav-link:last-child {
+    border-left: 0;
+}
+
+div ul li a {
+    font-size: 30px;
+}
+
+nav.navbar-expand-md {
+    background-color: #224a9b;
+    /* #10004F */
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.nav-link {
+    color: white;
+}
+
+.carousel-caption > h5, .carousel-caption p {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.678);
+}
+
+.carousel-item > img {
+	height: 400px;
+	object-fit: cover;
+}
+
+.btn-primary {
+    background-color: #224a9b;
+    border: #224a9b;
+}
+
+.btn-primary:hover{
+    background-color: #1F3D8D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #224a9b;
+    /* width: 100vw; */
+    /* position: absolute; */
+    /* bottom: 0; */
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    align-items: center;
+}
+
+footer > .compra-segura {
+    display: flex;
+    flex-direction: column;
+}
+
+.compra-segura > a {
+    text-decoration: none;
+    color: white;
+}
+
+footer > .contato {
+    display: flex;
+    flex-direction: column;
+}
+
+footer > .redes-sociais {
+    display: flex;
+    flex-direction: column; 
+}
+
+footer > img {
+    width: 150px;
+    filter: invert(1)
+}
+
+span > a > i {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+span > a {
+    text-decoration: none;
+}
+
+
