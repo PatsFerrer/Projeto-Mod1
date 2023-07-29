@@ -127,7 +127,48 @@
   </div>
 
   <main>
-    <h1 class="display-4 font-weight-normal text-center">Voos com até 50% de desconto!</h1>
+
+    <section class="container my-4">
+      <h1 class="display-4 font-weight-normal text-center">Busque o seu Destino Certo!</h1>
+
+      <form>
+        <div class="row">
+
+          <div class="col col-12 col-sm-4">
+            <label for="saida" class="col-form-label"><small>De onde está saindo?</small></label>
+            <div class="col-auto">
+              <input type="text" id="saida" class="form-control" aria-describedby="de-onde-sai">
+            </div>
+          </div>
+
+          <div class="col col-12 col-sm-4">
+            <label for="destino" class="col-form-label"><small>Para onde você vai?</small></label>
+            <div class="col-auto">
+              <input type="text" id="destino" class="form-control" aria-describedby="para-onda-vai">
+            </div>
+          </div>
+
+          <div class="col-3 col col-12 col-sm-4">
+            <label for="data-ida" class="col-form-label"><small>Escolha as datas</small></label>
+            <div class="col mb-1">
+              <input type="date" id="data-ida" class="form-control" aria-describedby="data-ida">
+            </div>
+
+            <div class="col mb-1">
+              <input type="date" id="data-volta" class="form-control" aria-describedby="data-volta">
+            </div>
+          </div>
+
+        </div>
+
+        <div class="d-grid mt-1">
+          <a href="destinos.html" class="btn btn-primary">Buscar</a>
+        </div>
+
+      </form>
+    </section>
+
+    <h1 class="display-5 font-weight-normal text-center">Voos com até 50% de desconto!</h1>
     <div class="album py-5 bg-light">
       <div class="container">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
