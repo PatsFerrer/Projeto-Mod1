@@ -6,6 +6,18 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #224a9b;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #122864;
+}
+
 body {
     position: relative;
 }
@@ -36,7 +48,6 @@ div ul li a {
 
 nav.navbar-expand-md {
     background-color: #224a9b;
-    /* #10004F */
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
@@ -65,33 +76,8 @@ nav.navbar-expand-md {
     background-color: #1F3D8D;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
     background-color: #224a9b;
-    /* width: 100vw; */
-    /* position: absolute; */
-    /* bottom: 0; */
     color: white;
     display: flex;
     justify-content: space-around;
@@ -132,5 +118,3 @@ span > a > i {
 span > a {
     text-decoration: none;
 }
-
-

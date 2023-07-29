@@ -1,11 +1,7 @@
-@charset "UTF-8";
-
 @media screen and (max-width: 600px) {
   footer {
     display: flex;
-    /* flex-direction: column; */
-    /* align-items: flex-start; */
-    gap: 5px;
+    gap: 20px;
     flex-wrap: wrap;
     justify-content: space-around;
   }
@@ -26,8 +22,6 @@
     object-fit: cover;
   }
 }
-
-/* tela maior */
 
 @media screen and (min-width: 768px) {
   .carousel-item > img {
