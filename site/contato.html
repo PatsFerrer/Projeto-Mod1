@@ -75,52 +75,53 @@
     </nav>
   </header>
 
-  <div class="container">
-    <div class="py-5 text-center">
-      <img class="container-fluid    mb-4" src="src/imagens/capa3.jpg"
-        alt="Imagem de uma moça vestindo um kimono oriental, com um guarda-chuva, em cima de uma montanha, com uma cachoeira ao fundo.">
+  <div class="position-relative overflow-hidden">
+    <img class="capinha card-img-top mb-3" src="src/imagens/capa3.jpg"
+      alt="Imagem de uma moça vestindo um kimono oriental, com um guarda-chuva, em cima de uma montanha, com uma cachoeira ao fundo.">
+    <div class="text-center">
       <h2 class="display-5">INFORMAÇÃO E CONTATO</h2>
-      <p class="lead">
-        Dúvidas? Nos envie uma mensagem.
-      </p>
+      <p class="lead">Dúvidas? Nos envie uma mensagem.</p>
     </div>
-    <div class="row">
-      <div class="col-md col-lg">
-        <form class="needs-validation" novalidate>
-          <div class="row g-3">
-            <div class="col-sm-6">
-              <label for="firstName" class="form-label">Nome</label>
-              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
-              <div class="invalid-feedback">
-                Nome válido é obrigatório.
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md col-lg">
+          <form class="needs-validation" novalidate>
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label for="firstName" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Nome válido é obrigatório.
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <label for="lastName" class="form-label">Sobrenome</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Sobrenome válido é obrigatório.
+                </div>
+              </div>
+              <div class="col-12">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com">
+                <div class="invalid-feedback">
+                  Insira um endereço de e-mail válido.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
             </div>
-            <div class="col-sm-6">
-              <label for="lastName" class="form-label">Sobrenome</label>
-              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
-              <div class="invalid-feedback">
-                Sobrenome válido é obrigatório.
-              </div>
-            </div>
-            <div class="col-12">
-              <label for="email" class="form-label">E-mail</label>
-              <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com">
-              <div class="invalid-feedback">
-                Insira um endereço de e-mail válido.
-              </div>
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-          </div>
-          <button class="w-100 btn btn-primary btn-lg" type="submit">Enviar</button>
-        </form>
-        <hr class="my-4">
-        <p class="text-center display-6">Atendimento nos dias úteis, das 9 às 18h:</p>
-        <p class="text-center lead">SAC: (85) 3232-3232</p>
-        <p class="text-center lead">Whatsapp: (85) 98758-5885</p>
-        <p class="text-center lead">contato@destinocerto.com</p>
+            <button class="w-100 btn btn-primary btn-lg" type="submit">Enviar</button>
+          </form>
+          <hr class="my-4">
+          <p class="text-center display-6">Atendimento nos dias úteis, das 9 às 18h:</p>
+          <p class="text-center lead">SAC: (85) 3232-3232</p>
+          <p class="text-center lead">Whatsapp: (85) 98758-5885</p>
+          <p class="text-center lead">contato@destinocerto.com</p>
+        </div>
       </div>
     </div>
   </div>

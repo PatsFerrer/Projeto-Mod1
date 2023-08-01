@@ -62,7 +62,7 @@ nav.navbar-expand-md {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.678);
 }
 
-.carousel-item > img {
+.carousel-item > img, .capinha {
 	height: 400px;
 	object-fit: cover;
 }
