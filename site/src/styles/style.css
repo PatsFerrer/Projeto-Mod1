@@ -11,11 +11,11 @@
 }
 
 ::-webkit-scrollbar-track{
-    background-color: #224a9b;
+    background-color: rgb(49 46 129);
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: #122864;
+    background-color: rgb(30 27 75);
 }
 
 body {
@@ -47,7 +47,7 @@ div ul li a {
 }
 
 nav.navbar-expand-md {
-    background-color: #224a9b;
+    background-color: rgb(49 46 129);
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
@@ -68,16 +68,20 @@ nav.navbar-expand-md {
 }
 
 .btn-primary {
-    background-color: #224a9b;
-    border: #224a9b;
+    background-color: rgb(49 46 129);
+    border: rgb(49 46 129);
 }
 
 .btn-primary:hover{
-    background-color: #1F3D8D;
+    background-color: rgb(30 27 75);
+}
+
+.btn-primary:active {
+    background-color: rgb(30 27 75) !important;
 }
 
 footer {
-    background-color: #224a9b;
+    background-color: rgb(49 46 129);
     color: white;
     display: flex;
     justify-content: space-around;
