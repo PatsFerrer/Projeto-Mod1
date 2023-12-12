@@ -15,4 +15,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🏷️ Layout
 Você pode visualizar o site através
-[desse link](https://patsferrer.github.io/recode-projeto/site/index.html).
+[desse link](https://patsferrer.github.io/Projeto-Mod1/site/index.html).
